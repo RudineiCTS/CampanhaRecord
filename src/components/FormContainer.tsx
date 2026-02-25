@@ -20,6 +20,23 @@ const itensComboBox = [
 ]  as ComboboxOption[]
 export function FormContainer(){
     const [apuration, setApuration] = useState('');
+    const [form, setForm] = useState({
+        descricaoCampanha:'',
+        dataInicio: Date,
+        dataFim:Date,
+        meta:0,
+        valorReceberIndustria:0,
+        valorPremicao:0,
+        FormaRecebimento:'',
+        fabricantes : [] as number[],
+        linhaProduto: [] as number[],
+        painelCliente: Boolean,
+        arquivo: '',
+        tipoApuracao:'',
+        tipoPagamento:'',
+        participantes: [] as string[],
+        observacao: ''
+    })
     return (
         <main className="bg-white p-8 flex flex-col gap-5 ">
             {/* nome campanha */}
