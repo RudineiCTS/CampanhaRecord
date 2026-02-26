@@ -2,23 +2,16 @@
 interface TitleComponentProps{
     title: string,
     required?:boolean,
-    type: 'UniqueTitle' |'TracerTitle'
+    decoration: 'UniqueTitle' |'TracerTitle',
+    type?: 'Title' | 'Legends' 
 }
-export function TitleComponent({title, required = false, type}:TitleComponentProps){
+export function TitleComponent(props:TitleComponentProps ){
     return (
-        <div className="flex items-center gap-1 ">
-            {
-                type == 'TracerTitle' 
-                    ?<div className="w-10 bg-[#cacaca] h-[1.5px]"></div>
-                    : <div></div>
-            }
-            
-            {
-                required == false 
-                    ? <h1 className="text-lg text-[#9CA3AF]">{title}</h1> 
-                    : <h1 className="text-lg text-[#9CA3AF]">{title} <strong className="text-red-600">*</strong></h1> 
-            }
-            
+        <div  className="flex items-center gap-1 ">
+            <h1 className={`${props.type ==="Title" ? "text-3xl" : "text-lg"} text-[#9CA3AF]`}>
+                {props.title}
+                {props.required &&  <strong className="text-red-600">*</strong>}
+            </h1>
         </div>
     )
 }

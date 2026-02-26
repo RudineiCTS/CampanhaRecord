@@ -1,4 +1,4 @@
-import { FormContainer } from './components/FormContainer'
+import { FormContainer } from './pages/FormPage'
 import  { HeaderContainer } from './components/HeaderContainer'
 
 function App() {

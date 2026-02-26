@@ -51,13 +51,13 @@ export default function ComboBoxComponent({
   }, [])
 
   return (
-    <div ref={containerRef} className={`relative w-full ${className}`}>
+    <div ref={containerRef} className={`relative w-full border-[#cacaca]  border-solid border-2  rounded-xl  px-4 py-2 ${className}`}>
       
       {/* Botão */}
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between bg-white border border-gray-300 rounded-md px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
+        className="w-full flex items-center justify-between bg-white  rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-primary"
       >
         <span>
           {selected ? selected.label : placeholder}
@@ -67,7 +67,7 @@ export default function ComboBoxComponent({
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute z-50 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg">
+        <div className="absolute z-50 mt-1 w-full bg-white rounded-md shadow-lg">
           
           {/* Input busca */}
           <input
@@ -75,7 +75,7 @@ export default function ComboBoxComponent({
             placeholder="Buscar..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full px-3 py-2 text-sm border-b border-gray-200 focus:outline-none"
+            className="w-full px-3 py-2 text-sm  focus:outline-none"
           />
 
           {/* Lista */}

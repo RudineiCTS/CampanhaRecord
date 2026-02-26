@@ -1,0 +1,244 @@
+import { useState } from "react";
+import { CheckboxComponent } from "../components/CheckboxComponent";
+import ComboBoxComponent, { type ComboboxOption } from "../components/ComboBoxComponent";
+import { InputFile, InputNumber, InputText } from "../components/InputComponent";
+import { TitleComponent } from "../components/TitleComponent";
+import {Datepicker} from 'flowbite-react'
+import { TextAreaComponent } from "../components/TextAreaComponent";
+import { ButtonComponent } from "../components/ButtonComponent";
+import type { FormType } from "./interfaces/FormContainerInterfces";
+import ModernDivider from "@/components/DividerComponente";
+
+ 
+const tipoCampanhas = [
+    {value: 'v', label:'Vendas'},
+    {value: 'p', label:' Positivação'},
+    {value: 'pv', label:'Produto Vendido'},
+    {value: 'o', label:'Outro'}
+]  as ComboboxOption[]
+const tipoPagamentos = [
+    {value:'cc', label:'Conta corrente fornecedor'},
+    {value:'voucher', label:'Voucher para compra em site'},
+    {value:'cpresente', label:'Cartão presente Industria'},
+    {value:'sip', label:'SIP - Abatimento em Boleto'},
+] as ComboboxOption[]
+export function FormContainer(){    
+    const [form, setForm] = useState<FormType>({
+        descricaoCampanha:'',
+        dataInicio: null,
+        dataFim: null,
+        meta:0,
+        valorReceberIndustria:0,
+        valorPremicao:0,
+        gatilhoVenda:'',
+        gatilhoPositivacao:'',
+        FormaRecebimento:'',
+        fabricantes : [] as number[],
+        linhaProduto: [] as number[],
+        painelCliente: false,
+        arquivo: '',
+        tipoApuracao:'',
+        tipoPagamento:'',
+        participantes: null,
+        observacao: ''
+    })
+    const [hasPanelClient, setHasPanelClient] = useState<boolean>(false)
+    const [notHasPanelClient, setnotHasPanelClient] = useState<boolean>(true)
+    const [hasPanelProduct, setHasPanelProduct] = useState(false)
+
+    function HandleChangeValueForm<K extends keyof FormType>( field: K, value: FormType[K]){        
+        if(field === 'fabricantes' || field ==='linhaProduto'){
+            if(value === null){
+                return;
+            }
+            let strgValue = value.toString();
+            const arr = strgValue
+                .split(",")
+                .map((item) => Number(item));
+
+            setForm((prev) =>({
+                ...prev,
+                [field]: arr
+            }));
+            return;
+        }
+        setForm((prev) =>({
+            ...prev,
+            [field]: value
+        }));
+        return;
+    }
+    function HandleValueCheckBox(e: React.ChangeEvent<HTMLInputElement>){
+        // console.log(e.target.checked);
+        // console.log(e.target.id)
+        const participante = e.target.id;
+        
+            setForm((prev)=> ({
+                ...prev,
+                [participante]: e.target.checked
+            }))
+        
+    }
+    function HandleHasPanelClient(e: React.ChangeEvent<HTMLInputElement>){
+        setHasPanelClient(e.target.checked);
+        setnotHasPanelClient(!notHasPanelClient)
+    }
+    function HandleNotHasPanelClient(e: React.ChangeEvent<HTMLInputElement>){
+        setnotHasPanelClient(e.target.checked);
+        setHasPanelClient(!hasPanelClient)
+    }
+    function HandleHasPanelProduct(e: React.ChangeEvent<HTMLInputElement>){
+        setHasPanelProduct(e.target.checked)
+    }
+    function HandleSubmit(e: React.FormEvent<HTMLFormElement>){
+        e.preventDefault();
+        console.log(form)
+    }
+    return (
+        <form className="bg-white p-8 flex flex-col gap-5" onSubmit={HandleSubmit}>
+            {/* nome campanha */}
+            <div className="flex flex-col gap-5">
+                <TitleComponent title='Descrição Campanha' decoration="TracerTitle" type="Title"/>
+                <TitleComponent title='Nome Campanha:'required={true} decoration="UniqueTitle"/>
+                <InputText placeholder="Ex: Kimberly Positivação" onChange={(e)=> HandleChangeValueForm("descricaoCampanha", e.target.value)}/>
+            </div>
+            {/* periodo apuracao e meta */}
+            <div className=" flex flex-col gap-8">
+                <div className="bg-white flex items-center justify-between">                
+                    <div className="flex gap-20 w-4/6">
+                        <div className="flex flex-col gap-3">
+                            <TitleComponent title="Data Inicio" required={true} decoration="UniqueTitle"/>
+                            <Datepicker 
+                                language="pt-BR" 
+                                label="Hoje" 
+                                labelClearButton="Limpar"                                                                         
+                                />
+                        </div>                
+                        <div className="flex flex-col  gap-3">
+                            <TitleComponent title="Data Fim" required={true} decoration="UniqueTitle"/>
+                            <Datepicker 
+                                language="pt-BR" 
+                                label="Hoje" 
+                                labelClearButton="Limpar"                                                                         
+                                />
+                        </div>   
+                    </div>
+                    <div className="flex flex-1 flex-col gap-4">
+                        <TitleComponent title="Meta" decoration="UniqueTitle"/>                    
+                        <InputNumber placeholder="2000000.00" onChange={(e)=> HandleChangeValueForm("meta", Number(e.target.value))}/>                    
+                    </div>                            
+                </div>
+                <div className="flex  justify-between">
+                    <div className="flex gap-16 w-4/6">
+                        <div className="flex flex-col gap-3">
+                            <TitleComponent title='Valor a receber da indústria:' decoration="UniqueTitle"/>
+                            <InputNumber placeholder="3000.00" onChange={(e)=> HandleChangeValueForm("valorReceberIndustria", Number(e.target.value))}/>
+                        </div>
+                        <div className="flex flex-col gap-3">
+                            <TitleComponent title='Valor para Premiação:' decoration="UniqueTitle"/>
+                            <InputNumber placeholder="3000.00" onChange={(e)=> HandleChangeValueForm("valorPremicao", Number(e.target.value))}/>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-1 flex-col gap-3">
+                        <TitleComponent title='Forma de Recebimento:' decoration="UniqueTitle"/>
+                        <InputText placeholder="Conta Corrente" onChange={(e)=> HandleChangeValueForm("FormaRecebimento", e.target.value)}/>
+                    </div>
+                </div>
+            </div>
+            <ModernDivider align="left" label="" className="" />
+            {/* variaveis campanha */}
+            <div className="flex flex-col gap-8 ">
+                <TitleComponent title='Variaveis da Campanha' decoration="TracerTitle" type="Title"/>                
+                    <div className="flex gap-16">
+                        <div className="flex flex-col gap-3 flex-auto">
+                            <TitleComponent title='Fabricante:'  decoration="UniqueTitle"/>
+                            <InputText placeholder="516, 1218, 478 ..." onChange={(e)=> HandleChangeValueForm("fabricantes", e.target.value as any)}/>        
+                        </div>
+                        <div className="flex flex-col gap-3 flex-1">
+                            <TitleComponent title='Linha Produto:'  decoration="UniqueTitle"/>
+                            <InputText placeholder="1, 3..." onChange={(e)=> HandleChangeValueForm("linhaProduto", e.target.value as any)}/>                        
+                        </div>                                              
+                    </div>  
+                    <div className="flex items-center ">
+                         <div className="flex flex-col gap-3 w-2/4">
+                            <TitleComponent title='Grupo de Produto:'  decoration="UniqueTitle"/>
+                            <InputText placeholder="1, 3..." onChange={(e)=> HandleChangeValueForm("linhaProduto", e.target.value as any)}/>                        
+                        </div>                                            
+                    </div>                    
+                <div className="flex gap-16">
+                    <div>
+                        <TitleComponent title='Gatilho venda'  decoration="UniqueTitle"/>
+                        <InputText placeholder="15.00" onChange={(e)=> HandleChangeValueForm("gatilhoVenda", e.target.value)}/> 
+                    </div>
+                    <div>
+                        <TitleComponent title='Gatilho Positivação'  decoration="UniqueTitle"/>
+                        <InputText placeholder="5 cnpjs"  onChange={(e)=> HandleChangeValueForm("gatilhoPositivacao", e.target.value)}/> 
+                    </div>                    
+                </div>
+                <div className="flex flex-col gap-3 justify-between">
+                    <TitleComponent title='Participantes da campanha:'  decoration="UniqueTitle"/>
+                    <div className="flex gap-10">
+                        <CheckboxComponent legend="Todos" title="todos"           onChange={HandleValueCheckBox} checked={form.participantes?.todos}/>
+                        <CheckboxComponent legend="Televendas" title="televendas" onChange={HandleValueCheckBox} checked={form.participantes?.televendas}/>
+                        <CheckboxComponent legend="Exclusivas" title="exclusivas" onChange={HandleValueCheckBox} checked={form.participantes?.exclusivas}/>
+                    </div>
+                </div>
+                <div className="flex gap-16 w-full">
+                    <div className="flex w-full gap-28">
+                        <div className="flex flex-col gap-3 flex-1">
+                            <TitleComponent title='Tipo Apuração:'  decoration="UniqueTitle"/>
+                            <ComboBoxComponent 
+                                key={'tipoApuracao'}
+                                onChange={(e)=>{ HandleChangeValueForm("tipoApuracao", e as any)} }  
+                                options={tipoCampanhas}
+                                value={form.tipoApuracao} 
+                                className="text-[#9CA3AF]"/>
+                        </div>
+                       <div className="flex flex-col gap-3 flex-1">
+
+                            <TitleComponent title='Tipo Pagamento:'  decoration="UniqueTitle"/>
+                            <ComboBoxComponent 
+                                key={'tipoPagmaneto'}
+                                onChange={(e)=>{ HandleChangeValueForm("tipoPagamento", e as any)} }  
+                                options={tipoPagamentos}
+                                value={form.tipoPagamento} 
+                                className="text-[#9CA3AF]"/>                                      
+                        </div>
+                    </div>                     
+
+                </div>
+                <ModernDivider align="left" label="" className="" />                  
+                 <div className="flex flex-col gap-9  ">   
+                      <TitleComponent title='Arquivos de apoio' decoration="TracerTitle" type="Title"/>                    
+                      <div className="flex flex-col gap-2">
+                         <CheckboxComponent legend="Utilizar painel produto" title="panelProduto"  onChange={HandleHasPanelProduct} checked={hasPanelProduct}/>                             
+                         <InputFile disableButton={!hasPanelProduct}/>
+
+                     </div>      
+                     <div className="flex flex-col  gap-2">
+                         <div className="flex gap-10 ">
+                             <CheckboxComponent 
+                                legend="Utilizar painel Cliente" 
+                                title="existsPanelClient" 
+                                checked={hasPanelClient}
+                                onChange={HandleHasPanelClient}
+                                />
+                             <CheckboxComponent 
+                                legend="Não utilizar painel" 
+                                title="notExistsPanelClient" 
+                                checked={notHasPanelClient}
+                                onChange={HandleNotHasPanelClient}
+                                />
+                         </div>
+                         <InputFile disableButton={ hasPanelClient === true ? false : true} />
+                     </div>                         
+                 </div>
+                <TextAreaComponent onChange={(e)=> HandleChangeValueForm("observacao", e.target.value)}/>
+                <div className="flex w-2/3 mx-auto">
+                    <ButtonComponent title="Enviar" type="submit"/>
+                </div>
+            </div>
+        </form>
+    )
+}
