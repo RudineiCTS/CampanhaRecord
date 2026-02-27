@@ -14,8 +14,8 @@ export interface FormType {
     FormaRecebimento:string,
     fabricantes :number[],
     linhaProduto: number[],
-    painelCliente: boolean,
-    arquivo: string,
+    painelCliente: string,
+    painelProduct:string,    
     tipoApuracao: string,
     tipoPagamento: string,
     participantes: {
@@ -23,6 +23,7 @@ export interface FormType {
       televendas: false,
       exclusivas:false
     } | null,
+    tipoCalculo:string,
     observacao: string
 }
        

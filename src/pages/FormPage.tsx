@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CheckboxComponent } from "../components/CheckboxComponent";
 import ComboBoxComponent, { type ComboboxOption } from "../components/ComboBoxComponent";
 import { InputFile, InputNumber, InputText } from "../components/InputComponent";
@@ -8,6 +8,14 @@ import { TextAreaComponent } from "../components/TextAreaComponent";
 import { ButtonComponent } from "../components/ButtonComponent";
 import type { FormType } from "./interfaces/FormContainerInterfces";
 import ModernDivider from "@/components/DividerComponente";
+import { MultipleComboBox } from "@/components/combobox/MultipleComboBox";
+import fabricantes  from '../utils/fabricantes.json'
+
+type IFabricante = {
+  idfabricante: number
+  nome: string
+}
+
 
  
 const tipoCampanhas = [
@@ -22,7 +30,18 @@ const tipoPagamentos = [
     {value:'cpresente', label:'Cartão presente Industria'},
     {value:'sip', label:'SIP - Abatimento em Boleto'},
 ] as ComboboxOption[]
+const tipoCalculo = [
+    {value:'ranking', label:'Ranking'},
+    {value:'valorPositivacaoQuantidade', label:'Valor por positivação ou quantidade'},
+    {value:'faixaPremio', label:'Faixa de premio'},
+    {value:'percSobreRealizado', label:'Percentual sobre o realizado'},
+    {value:'premioProduto', label:'Premiação em produtos ou serviços'},
+    {value:'outro', label:'Outros'},
+] as ComboboxOption[]
 export function FormContainer(){    
+    const today = new Date();
+    const currentDateInitialMonth = new Date(today.getFullYear(), today.getMonth(),1)
+    const currentDateFinalMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0)
     const [form, setForm] = useState<FormType>({
         descricaoCampanha:'',
         dataInicio: null,
@@ -35,16 +54,22 @@ export function FormContainer(){
         FormaRecebimento:'',
         fabricantes : [] as number[],
         linhaProduto: [] as number[],
-        painelCliente: false,
-        arquivo: '',
+        painelCliente: '',
+        painelProduct: '',
         tipoApuracao:'',
         tipoPagamento:'',
         participantes: null,
-        observacao: ''
+        observacao: '',
+        tipoCalculo:''
     })
     const [hasPanelClient, setHasPanelClient] = useState<boolean>(false)
     const [notHasPanelClient, setnotHasPanelClient] = useState<boolean>(true)
-    const [hasPanelProduct, setHasPanelProduct] = useState(false)
+    const [hasPanelProduct, setHasPanelProduct] = useState(false)    
+
+    const options: ComboboxOption[] = (fabricantes as IFabricante[]).map((item) => ({
+        value: String(item.idfabricante),
+        label: item.nome
+        }))
 
     function HandleChangeValueForm<K extends keyof FormType>( field: K, value: FormType[K]){        
         if(field === 'fabricantes' || field ==='linhaProduto'){
@@ -94,13 +119,40 @@ export function FormContainer(){
         e.preventDefault();
         console.log(form)
     }
+    function HandleDateApuration(dateValue: Date| null, label:string){
+        if(dateValue){
+            return;
+        }
+        if(label === "dtInicio"){
+            setForm((prev)=>({
+                ...prev,
+                dataInicio: dateValue
+            }))
+        }        
+        else{
+            setForm((prev)=>({
+                ...prev,
+                dataFim: dateValue
+            }))
+        }
+    }
+
+    useEffect(()=>{
+        
+    },[])
     return (
         <form className="bg-white p-8 flex flex-col gap-5" onSubmit={HandleSubmit}>
             {/* nome campanha */}
             <div className="flex flex-col gap-5">
                 <TitleComponent title='Descrição Campanha' decoration="TracerTitle" type="Title"/>
                 <TitleComponent title='Nome Campanha:'required={true} decoration="UniqueTitle"/>
-                <InputText placeholder="Ex: Kimberly Positivação" onChange={(e)=> HandleChangeValueForm("descricaoCampanha", e.target.value)}/>
+                <InputText 
+                    placeholder="Ex: Kimberly Positivação" 
+                    onChange={(e)=> HandleChangeValueForm("descricaoCampanha", e.target.value)}
+                    value={form.descricaoCampanha}
+                    />
+                     
+
             </div>
             {/* periodo apuracao e meta */}
             <div className=" flex flex-col gap-8">
@@ -110,39 +162,64 @@ export function FormContainer(){
                             <TitleComponent title="Data Inicio" required={true} decoration="UniqueTitle"/>
                             <Datepicker 
                                 language="pt-BR" 
-                                label="Hoje" 
-                                labelClearButton="Limpar"                                                                         
+                                label="dtInicio" 
+                                showClearButton={false}
+                                showTodayButton={false}
+                                onChange={(e) => HandleDateApuration(e, 'dtInicio')}      
+                                key={'dataInicio'}   
+                                value={form.dataInicio ?? currentDateInitialMonth}                                                                                                       
                                 />
                         </div>                
                         <div className="flex flex-col  gap-3">
                             <TitleComponent title="Data Fim" required={true} decoration="UniqueTitle"/>
                             <Datepicker 
                                 language="pt-BR" 
-                                label="Hoje" 
-                                labelClearButton="Limpar"                                                                         
+                                label="dtFim" 
+                                showClearButton={false}
+                                showTodayButton={false}
+                                onChange={(e) => HandleDateApuration(e, 'dtFim')}      
+                                key={'dtFim'}     
+                                value={form.dataFim ?? currentDateFinalMonth}                                                                                                  
                                 />
                         </div>   
                     </div>
                     <div className="flex flex-1 flex-col gap-4">
                         <TitleComponent title="Meta" decoration="UniqueTitle"/>                    
-                        <InputNumber placeholder="2000000.00" onChange={(e)=> HandleChangeValueForm("meta", Number(e.target.value))}/>                    
+                        <InputNumber 
+                            placeholder="Ex: 2000000.00" 
+                            onChange={(e)=> HandleChangeValueForm("meta", Number(e.target.value))}
+                            value={form.meta}
+                            />                    
                     </div>                            
                 </div>
                 <div className="flex  justify-between">
                     <div className="flex gap-16 w-4/6">
                         <div className="flex flex-col gap-3">
                             <TitleComponent title='Valor a receber da indústria:' decoration="UniqueTitle"/>
-                            <InputNumber placeholder="3000.00" onChange={(e)=> HandleChangeValueForm("valorReceberIndustria", Number(e.target.value))}/>
+                            <InputNumber 
+                                placeholder="Ex: 3000.00" 
+                                onChange={(e)=> HandleChangeValueForm("valorReceberIndustria", Number(e.target.value))}
+                                value={form.valorReceberIndustria}
+                                />
                         </div>
                         <div className="flex flex-col gap-3">
                             <TitleComponent title='Valor para Premiação:' decoration="UniqueTitle"/>
-                            <InputNumber placeholder="3000.00" onChange={(e)=> HandleChangeValueForm("valorPremicao", Number(e.target.value))}/>
+                            <InputNumber 
+                                placeholder="Ex: 3000.00" 
+                                onChange={(e)=> HandleChangeValueForm("valorPremicao", Number(e.target.value))}
+                                value={form.valorPremicao}
+                                />
                         </div>
                     </div>
 
                     <div className="flex flex-1 flex-col gap-3">
-                        <TitleComponent title='Forma de Recebimento:' decoration="UniqueTitle"/>
-                        <InputText placeholder="Conta Corrente" onChange={(e)=> HandleChangeValueForm("FormaRecebimento", e.target.value)}/>
+                        <TitleComponent title='Tipo de Calculo para premio:' decoration="UniqueTitle"/>
+                        <ComboBoxComponent 
+                            onChange={(e)=> HandleChangeValueForm("tipoCalculo", e)}
+                            options={tipoCalculo}
+                            value={form.tipoCalculo}
+                            className="text-[#9CA3AF]"                            
+                        />
                     </div>
                 </div>
             </div>
@@ -153,7 +230,11 @@ export function FormContainer(){
                     <div className="flex gap-16">
                         <div className="flex flex-col gap-3 flex-auto">
                             <TitleComponent title='Fabricante:'  decoration="UniqueTitle"/>
-                            <InputText placeholder="516, 1218, 478 ..." onChange={(e)=> HandleChangeValueForm("fabricantes", e.target.value as any)}/>        
+                            <MultipleComboBox onChange={(e)=>{console.log(e) }}options={options} value={''}    className="text-[#9CA3AF]"  placeholder="Selecione o fabricante"/>
+                            {/* <InputText 
+                                placeholder="516, 1218, 478 ..." 
+                                onChange={(e)=> HandleChangeValueForm("fabricantes", e.target.value as any)}                                
+                                />         */}
                         </div>
                         <div className="flex flex-col gap-3 flex-1">
                             <TitleComponent title='Linha Produto:'  decoration="UniqueTitle"/>

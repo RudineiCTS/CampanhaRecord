@@ -1,0 +1,2266 @@
+[
+  {
+    "idfabricante": 1,
+    "nome": "SOLFARMA COMERCIO DE PRODUTOS FARMACEUTICOS S.A."
+  },
+  {
+    "idfabricante": 310,
+    "nome": "ABBOTT LABORATORIOS DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 311,
+    "nome": "ALCON LABORATORIOS DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 312,
+    "nome": "ALLERGAN PRODUTOS FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 316,
+    "nome": "APSEN FARMACEUTICA S/A"
+  },
+  {
+    "idfabricante": 319,
+    "nome": "ASTRAZENECA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 320,
+    "nome": "B.D. BECTON DICKINSON IND. CIRURG. LTDA."
+  },
+  {
+    "idfabricante": 326,
+    "nome": "BRAINFARMA INDUSTRIA QUIMICA E FARM.LTDA"
+  },
+  {
+    "idfabricante": 327,
+    "nome": "BS DISTRIBUIDORA DE PROD.DE HIGIENE LTDA"
+  },
+  {
+    "idfabricante": 330,
+    "nome": "CENTROFARMA PRODUTOS FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 331,
+    "nome": "COLGATE-PALMOLIVE IND.E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 333,
+    "nome": "COMERCIAL DO GUA.CAXINAUA COM.E IND.LTDA"
+  },
+  {
+    "idfabricante": 334,
+    "nome": "COMPANHIA MANUFATORA TECIDOS DE ALGODAO"
+  },
+  {
+    "idfabricante": 335,
+    "nome": "CRISTALIA PRODUTOS QUIMICOS FARMA.LTDA"
+  },
+  {
+    "idfabricante": 337,
+    "nome": "LABORATORIOS PIERRE FABRE DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 344,
+    "nome": "DKT DO BRASIL PROD.DE USO PESSOAL LTDA"
+  },
+  {
+    "idfabricante": 348,
+    "nome": "ELI LILLY DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 352,
+    "nome": "FABRICA DE ARTEFATOS DE LATEX BLOWTEX LTDA"
+  },
+  {
+    "idfabricante": 353,
+    "nome": "FARMACIA E LABOR.HOMEO.ALMEIDA PRADO LTDA"
+  },
+  {
+    "idfabricante": 356,
+    "nome": "CHIESI FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 357,
+    "nome": "FARMASA LAB AMERICANO FARMACOTERAPIA S/A"
+  },
+  {
+    "idfabricante": 358,
+    "nome": "GALDERMA BRASIL LTDA"
+  },
+  {
+    "idfabricante": 362,
+    "nome": "HISAMITSU FARMACEUTICA DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 363,
+    "nome": "INBORPLAS ARTEF.DE BORRACHA E PLAST.LTDA"
+  },
+  {
+    "idfabricante": 364,
+    "nome": "INCOTERM INDUSTRIA DE TERMOMETROS LTDA."
+  },
+  {
+    "idfabricante": 370,
+    "nome": "JANSSEN-CILAG FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 374,
+    "nome": "KIMBERLY-CLARK BRASIL INDUSTRIA E COMERCIO DE PROD"
+  },
+  {
+    "idfabricante": 377,
+    "nome": "LABORATORIO CATARINENSE S.A"
+  },
+  {
+    "idfabricante": 379,
+    "nome": "LABORATORIO GROSS S.A"
+  },
+  {
+    "idfabricante": 382,
+    "nome": "LATINOFARMA INDUSTRIAS FARMCEUTICAS LTDA"
+  },
+  {
+    "idfabricante": 384,
+    "nome": "LUNDBECK BRASIL LTDA"
+  },
+  {
+    "idfabricante": 388,
+    "nome": "MAXIFARMA DISTRIBUIDORA DE MEDICAMENTOS LTDA"
+  },
+  {
+    "idfabricante": 390,
+    "nome": "MEDLEY S/A INDUSTRIA FARMACEUTICA"
+  },
+  {
+    "idfabricante": 392,
+    "nome": "MT INDUSTRIA E COM.DE PROD.HIGIENE LTDA."
+  },
+  {
+    "idfabricante": 393,
+    "nome": "EXITO COM. DE COSM. E PROD.NAT.LTDA-ME"
+  },
+  {
+    "idfabricante": 394,
+    "nome": "GERMED FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 396,
+    "nome": "NEVE IND.E COM.DE PROD.CIRURGICOS LTDA."
+  },
+  {
+    "idfabricante": 398,
+    "nome": "NOVO NORDISK FARMACEUTICA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 399,
+    "nome": "NS INDUSTRIA DE APAR.MEDICOS LTDA."
+  },
+  {
+    "idfabricante": 401,
+    "nome": "TAKEDA PHARMA LTDA."
+  },
+  {
+    "idfabricante": 402,
+    "nome": "INSTITUTO BIOCHIMICO INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 403,
+    "nome": "POM POM PRODUTOS HIGIENICOS LTDA"
+  },
+  {
+    "idfabricante": 405,
+    "nome": "ESSITY DO BRASIL INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 409,
+    "nome": "ZYDUS NIKKHO FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 412,
+    "nome": "DAIICHI SANKYO BRASIL FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 417,
+    "nome": "INTENDIS DO BRASIL QUIMICA E FARMA.LTDA"
+  },
+  {
+    "idfabricante": 425,
+    "nome": "TORRENT DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 426,
+    "nome": "UCI-FARMA INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 427,
+    "nome": "VALEANT FARMACEUTICA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 428,
+    "nome": "VIC PHARMA INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 430,
+    "nome": "ADIUM S.A."
+  },
+  {
+    "idfabricante": 431,
+    "nome": "3M DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 433,
+    "nome": "ACHÉ LABORATÓRIOS FARMACÊUTICOS S/A"
+  },
+  {
+    "idfabricante": 434,
+    "nome": "APIS VIDA INDUSTRIA E COMERCIO"
+  },
+  {
+    "idfabricante": 443,
+    "nome": "SANOFI-AVENTIS COMERCIAL E LOGISTICA"
+  },
+  {
+    "idfabricante": 444,
+    "nome": "BAYER S.A"
+  },
+  {
+    "idfabricante": 450,
+    "nome": "BIOSINTÉTICA FARMACÊUTICA LTDA"
+  },
+  {
+    "idfabricante": 451,
+    "nome": "BL INDUSTRIA OTICA LTDA"
+  },
+  {
+    "idfabricante": 452,
+    "nome": "BOEHRINGER INGELHEIM DO BRASIL QUIM FAR LT"
+  },
+  {
+    "idfabricante": 453,
+    "nome": "BRISTOL MYERS SQUIBB FARMACEUTICA S/A"
+  },
+  {
+    "idfabricante": 461,
+    "nome": "CREMER S/A"
+  },
+  {
+    "idfabricante": 465,
+    "nome": "HYPERA S.A. CH"
+  },
+  {
+    "idfabricante": 469,
+    "nome": "EMS S/A"
+  },
+  {
+    "idfabricante": 471,
+    "nome": "EUROFARMA LABORATORIOS LTDA."
+  },
+  {
+    "idfabricante": 474,
+    "nome": "FARMOQUIMICA S.A."
+  },
+  {
+    "idfabricante": 482,
+    "nome": "GENOM FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 483,
+    "nome": "GLAXO SMITHKLINE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 486,
+    "nome": "QUESALON DISTR. PRODS. FARMS. LTDA"
+  },
+  {
+    "idfabricante": 488,
+    "nome": "SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 489,
+    "nome": "THERASKIN FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 490,
+    "nome": "IMPORTADORA BRASTOKIO LTDA."
+  },
+  {
+    "idfabricante": 492,
+    "nome": "J MOREIRA COMERCIAL DE ALIMENTOS LTDA"
+  },
+  {
+    "idfabricante": 494,
+    "nome": "JOHNSON E JOHNSON COM E DISTRIBUICAO LTDA"
+  },
+  {
+    "idfabricante": 495,
+    "nome": "JOHNSON E JOHNSON COM E DISTRIBUICAO LTDA"
+  },
+  {
+    "idfabricante": 497,
+    "nome": "LABORATORIO CANONNE LTDA"
+  },
+  {
+    "idfabricante": 498,
+    "nome": "LABORATORIO MELPOEJO LTDA"
+  },
+  {
+    "idfabricante": 500,
+    "nome": "LABORATORIOS BALDACCI S/A"
+  },
+  {
+    "idfabricante": 501,
+    "nome": "LABORATORIOS PFIZER LTDA"
+  },
+  {
+    "idfabricante": 502,
+    "nome": "LABORATORIOS STIEFEL LTDA"
+  },
+  {
+    "idfabricante": 503,
+    "nome": "MEGALABS FARMACÊUTICA S.A."
+  },
+  {
+    "idfabricante": 505,
+    "nome": "LECLERC INDUSTRIAL LTDA."
+  },
+  {
+    "idfabricante": 506,
+    "nome": "LIBBS FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 512,
+    "nome": "MERCK S/A"
+  },
+  {
+    "idfabricante": 513,
+    "nome": "MERCK SHARP E DOHME FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 514,
+    "nome": "MINANCORA E CIA. LTDA."
+  },
+  {
+    "idfabricante": 516,
+    "nome": "MYRALIS PHARMA LTDA EPP."
+  },
+  {
+    "idfabricante": 517,
+    "nome": "NESTLE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 519,
+    "nome": "EMS S/A - BRACE"
+  },
+  {
+    "idfabricante": 520,
+    "nome": "NOVARTIS BIOCIENCIAS S/A"
+  },
+  {
+    "idfabricante": 521,
+    "nome": "NUTRILATINA LABORATORIOS LTDA."
+  },
+  {
+    "idfabricante": 524,
+    "nome": "PONTELAND DISTRIBUICAO S.A"
+  },
+  {
+    "idfabricante": 526,
+    "nome": "PROBIOTICA LABORATORIOS LTDA."
+  },
+  {
+    "idfabricante": 527,
+    "nome": "PROCTER E GAMBLE IND COM LTDA - GOIANIA"
+  },
+  {
+    "idfabricante": 529,
+    "nome": "PRODS. FARMS.MILLET ROUX LTDA"
+  },
+  {
+    "idfabricante": 530,
+    "nome": "PRODUTOS ROCHE QUIMICA E FARMACEUTICOS S.A"
+  },
+  {
+    "idfabricante": 534,
+    "nome": "SALTOS ALIMENTOS LTDA."
+  },
+  {
+    "idfabricante": 535,
+    "nome": "MANTECORP INDUSTRIA QUIM E FARM.LTDA"
+  },
+  {
+    "idfabricante": 538,
+    "nome": "LABORATORIOS SERVIER DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 539,
+    "nome": "SERVIMED COMERCIAL LTDA."
+  },
+  {
+    "idfabricante": 542,
+    "nome": "SOLVAY FARMA LTDA"
+  },
+  {
+    "idfabricante": 548,
+    "nome": "TRB PHARMA IND.LTDA"
+  },
+  {
+    "idfabricante": 550,
+    "nome": "UNIAO QUIMICA FARM.NAC S.A"
+  },
+  {
+    "idfabricante": 552,
+    "nome": "GOLD NUTRITION INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 555,
+    "nome": "ABV COMERCIO DE MEDICAMENTOS LTDA"
+  },
+  {
+    "idfabricante": 558,
+    "nome": "PFIZER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 559,
+    "nome": "PFIZER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 561,
+    "nome": "ZAMBON LABS FARMS S.A"
+  },
+  {
+    "idfabricante": 562,
+    "nome": "AVERT LABORATORIOS LTDA."
+  },
+  {
+    "idfabricante": 563,
+    "nome": "PROCOSA PRODUTOS DE BELEZA LTDA"
+  },
+  {
+    "idfabricante": 573,
+    "nome": "LABORATORIOS BAGO DO BRASIL S.A."
+  },
+  {
+    "idfabricante": 598,
+    "nome": "GLENMARK FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 1715,
+    "nome": "ACCURACY PROMO SERVICOS TEMPORARIOS E DE MARKETING"
+  },
+  {
+    "idfabricante": 2377,
+    "nome": "2F INDUSTRIA E COMERCIO PLASTICOS ME"
+  },
+  {
+    "idfabricante": 2749,
+    "nome": "MINAS FARMA PRODUTOS FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 2992,
+    "nome": "VIA VAREJO S/A - VIA VAREJO"
+  },
+  {
+    "idfabricante": 3143,
+    "nome": "PROCTER E GAMBLE IND COM LTDA"
+  },
+  {
+    "idfabricante": 3470,
+    "nome": "HYPERA/TAKEDA S.A"
+  },
+  {
+    "idfabricante": 3567,
+    "nome": "MARTINS COM.E SERV.DE DISTRIBUICAO S.A"
+  },
+  {
+    "idfabricante": 3579,
+    "nome": "BIOLAB SANUS FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 3598,
+    "nome": "FARMABRAZ BETA ATALAIA FARMACÊUTICA LTDA"
+  },
+  {
+    "idfabricante": 3628,
+    "nome": "MR FARMA PRODUTOS FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 3775,
+    "nome": "ACCUMED PRODUTOS MEDICO-HOSPITALARES LTDA"
+  },
+  {
+    "idfabricante": 3909,
+    "nome": "MARJAN INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 4008,
+    "nome": "HANESBRANDS BRASIL TEXTIL LTDA."
+  },
+  {
+    "idfabricante": 4183,
+    "nome": "ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 4392,
+    "nome": "DIVCOM FARM NORDESTE"
+  },
+  {
+    "idfabricante": 4429,
+    "nome": "SPI COM DE COSMETICOS E PERFUMES LTDA."
+  },
+  {
+    "idfabricante": 4539,
+    "nome": "DIVCOM S.A"
+  },
+  {
+    "idfabricante": 4850,
+    "nome": "DERMAVI DISTRIBUIDORA DE DERMO COSMETICOS EIRELI"
+  },
+  {
+    "idfabricante": 5155,
+    "nome": "EUROART COMERCIO DE PRODUTOS DE BELEZA LTDA"
+  },
+  {
+    "idfabricante": 5514,
+    "nome": "J. MAHFUZ LTDA."
+  },
+  {
+    "idfabricante": 5802,
+    "nome": "BRASTERAPICA INDUSTRIA FARMACEUTICA EIRELI"
+  },
+  {
+    "idfabricante": 5910,
+    "nome": "HYPERA SKINCARE"
+  },
+  {
+    "idfabricante": 5953,
+    "nome": "RECKITT BENCKISER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 5995,
+    "nome": "LABORATORIO NEO QUIMICA COMERCIO E INDUSTRIA LTDA."
+  },
+  {
+    "idfabricante": 6062,
+    "nome": "LABORATORIO TAYUYNA LTDA"
+  },
+  {
+    "idfabricante": 6088,
+    "nome": "SILVESTRE LABS QUIMICA E FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 6240,
+    "nome": "HYPERA/BUSCO"
+  },
+  {
+    "idfabricante": 6376,
+    "nome": "EDITORA LISON LTDA"
+  },
+  {
+    "idfabricante": 6530,
+    "nome": "AIRELA INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 6622,
+    "nome": "SUPERMERCADO IQUEGAMI LTDA"
+  },
+  {
+    "idfabricante": 6729,
+    "nome": "VIA FARMA RIO PRETO IMP. E EXP. LTDA."
+  },
+  {
+    "idfabricante": 6752,
+    "nome": "SAUAD INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 7118,
+    "nome": "ORGANON FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 7187,
+    "nome": "LUZ ALIMENTOS LTDA"
+  },
+  {
+    "idfabricante": 7260,
+    "nome": "SOLAR COMERCIO E AGROINDUSTRIAL LTDA"
+  },
+  {
+    "idfabricante": 7495,
+    "nome": "SUPERA FARMA LABORATORIOS LTDA."
+  },
+  {
+    "idfabricante": 7503,
+    "nome": "DANONE LTDA"
+  },
+  {
+    "idfabricante": 7596,
+    "nome": "DEBRIDAN FARMA DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 7726,
+    "nome": "PROVIDER INDUSTRIA E COMERCIO S/A"
+  },
+  {
+    "idfabricante": 7768,
+    "nome": "TEVA FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 7791,
+    "nome": "EQUALIV PHARMA INDUSTRIA,COMERCIO E DISTRIB. LTDA."
+  },
+  {
+    "idfabricante": 7800,
+    "nome": "HERBARIUM LABORATORIO BOTANICO LTDA"
+  },
+  {
+    "idfabricante": 7806,
+    "nome": "S/A FABRICA DE TECIDOS SAO JOAO EVANGELISTA"
+  },
+  {
+    "idfabricante": 7886,
+    "nome": "HOMEOPATIA WALDEMIRO PEREIRA LAB.IND.FARM.LTDA-EPP"
+  },
+  {
+    "idfabricante": 7907,
+    "nome": "LEGRAND PHARMA INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 8014,
+    "nome": "ADAPT PRODUTOS OFTALMOLOGICOS LTDA - EPP"
+  },
+  {
+    "idfabricante": 8091,
+    "nome": "GENOMA PRODUTOS NATURAIS LTDA"
+  },
+  {
+    "idfabricante": 8540,
+    "nome": "HYPERA S.A. PP"
+  },
+  {
+    "idfabricante": 8571,
+    "nome": "NIPRO MEDICAL CORPORATION PRODUTOS MEDICOS LTDA."
+  },
+  {
+    "idfabricante": 8658,
+    "nome": "PERFETTI VAN MELLE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 8706,
+    "nome": "ALTHAIA S.A. INDUSTRIA FARMACEUTICA"
+  },
+  {
+    "idfabricante": 8746,
+    "nome": "SUPER MIX COMERCIO DE PRODUTOS DE PERFUMARIA LTDA"
+  },
+  {
+    "idfabricante": 8773,
+    "nome": "EDITORA E TIPOGRAFIA ALBERGRAFICA LTDA."
+  },
+  {
+    "idfabricante": 8925,
+    "nome": "INDUSTRIA E COMERCIO QUIMETAL S/A"
+  },
+  {
+    "idfabricante": 9415,
+    "nome": "BESINS HEALTHCARE BRASIL COM. E DIST. DE MED. LTDA"
+  },
+  {
+    "idfabricante": 9417,
+    "nome": "CRIA SIM PRODUTOS DE HIGIENE LTDA"
+  },
+  {
+    "idfabricante": 9441,
+    "nome": "NOVA QUIMICA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 9526,
+    "nome": "CONTROLLER COMERCIO E SERVIÇOS LTDA"
+  },
+  {
+    "idfabricante": 9589,
+    "nome": "LILLO DO BRASIL IND E COM PROD INFANTIS LTDA"
+  },
+  {
+    "idfabricante": 10105,
+    "nome": "MOMENTA FARMACÊUTICA LTDA"
+  },
+  {
+    "idfabricante": 10200,
+    "nome": "MEDA PHARMA IMPORTAÇÃO E EXPO DE PROD FARMAC LTDA"
+  },
+  {
+    "idfabricante": 10261,
+    "nome": "LABORATÓRIO SINTERÁPICO INDL.FARM. LTDA"
+  },
+  {
+    "idfabricante": 10369,
+    "nome": "LOGG DISTRIBUIDORA DE PROD. FARMACEUTICOS EIRELI"
+  },
+  {
+    "idfabricante": 10550,
+    "nome": "LABOFARMA PRODUTOS FARMACÊUTICOS LTDA"
+  },
+  {
+    "idfabricante": 10680,
+    "nome": "ASTELLAS FARMA BRASIL IMPORT DISTRIB MEDIC LTDA"
+  },
+  {
+    "idfabricante": 10709,
+    "nome": "BRASFARMA PRODUTOS FARMACÊUTICOS LTDA - EPP"
+  },
+  {
+    "idfabricante": 10767,
+    "nome": "MEDSTAR IMPORTAÇÃO E EXPORTAÇÃO LTDA -EPP"
+  },
+  {
+    "idfabricante": 10969,
+    "nome": "ABBOTT LABORATORIOS DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 12099,
+    "nome": "CELLERA CONSUMO LTDA."
+  },
+  {
+    "idfabricante": 13178,
+    "nome": "BDF NIVEA LTDA"
+  },
+  {
+    "idfabricante": 13738,
+    "nome": "ESSITY SOLUCOES MEDICAS DO BRASIL COMERCIO E DISTR"
+  },
+  {
+    "idfabricante": 13776,
+    "nome": "MAXQUALY - COMERCIO E LOGISTICA DE COSMETICOS - EI"
+  },
+  {
+    "idfabricante": 13993,
+    "nome": "MAGAZINE LUIZA S/A"
+  },
+  {
+    "idfabricante": 15035,
+    "nome": "P & G IND COM LTDA (DETERGENTE)"
+  },
+  {
+    "idfabricante": 15037,
+    "nome": "QUIMICA AMPARO LTDA"
+  },
+  {
+    "idfabricante": 16239,
+    "nome": "SANOFI-AVENTIS FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 16240,
+    "nome": "SANOFI-AVENTIS FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 17199,
+    "nome": "NESTLE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 17961,
+    "nome": "WOW NUTRITION INDUSTRIA E COMERCIO S.A."
+  },
+  {
+    "idfabricante": 18118,
+    "nome": "ULTRAPAN INDUSTRIA E COMERCIO LT"
+  },
+  {
+    "idfabricante": 19366,
+    "nome": "PERFETTI VAN MELLE DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 20879,
+    "nome": "MAGAZINE LUIZA S/A"
+  },
+  {
+    "idfabricante": 20979,
+    "nome": "ISDIN PRODUTOS FARMACEUTICOS LTDA."
+  },
+  {
+    "idfabricante": 20989,
+    "nome": "DAMA TRANSPORTADORA LTDA"
+  },
+  {
+    "idfabricante": 21188,
+    "nome": "ENOVA FOODS S.A"
+  },
+  {
+    "idfabricante": 21429,
+    "nome": "MODERM LABORATORIES COM.DE COSMETICOS DO BRASIL LT"
+  },
+  {
+    "idfabricante": 22004,
+    "nome": "DANONE LTDA"
+  },
+  {
+    "idfabricante": 22434,
+    "nome": "LABORATORIO OSLER DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 22575,
+    "nome": "TERRAMAIS INDUSTRIA DE SUPLEMENTOS ALIMENTARES LTD"
+  },
+  {
+    "idfabricante": 22596,
+    "nome": "PROCTER E GAMBLE INDUSTRIAL E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 22649,
+    "nome": "UNILEVER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 22665,
+    "nome": "FABIO SCALICE"
+  },
+  {
+    "idfabricante": 22790,
+    "nome": "MILLIPHARMA PRODUTOS MEDICOS E FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 23097,
+    "nome": "QUIFA FARMACEUTICA DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 23181,
+    "nome": "RECKITT BENCKISER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 23283,
+    "nome": "VIA VAREJO S/A"
+  },
+  {
+    "idfabricante": 23284,
+    "nome": "MILI S/A"
+  },
+  {
+    "idfabricante": 23359,
+    "nome": "OMRON HEALTHCARE BRASIL REP.DIST.PROD.MED.HOSP.LT"
+  },
+  {
+    "idfabricante": 23432,
+    "nome": "HALEON BRASIL DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 23491,
+    "nome": "MUNDIPHARMA BRASIL PRODUTOS MEDICOS E FARMACEUTICO"
+  },
+  {
+    "idfabricante": 23755,
+    "nome": "LABORATORIO FARMACEUTICO ELOFAR LTDA"
+  },
+  {
+    "idfabricante": 23794,
+    "nome": "GRUNENTHAL DO BRASIL FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 23842,
+    "nome": "COTY BRASIL INDUSTRIA E COMERCIO DE COSMETICOS LTD"
+  },
+  {
+    "idfabricante": 23878,
+    "nome": "HYPERA/SANOFI"
+  },
+  {
+    "idfabricante": 23885,
+    "nome": "CELLERA FARMACEUTICA S.A."
+  },
+  {
+    "idfabricante": 23927,
+    "nome": "DURACELL COMERCIAL E IMPORTADORA DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 23939,
+    "nome": "MUCAMBO S/A"
+  },
+  {
+    "idfabricante": 24150,
+    "nome": "SEMINA INDÚSTRIA E COMÉRCIO LTDA."
+  },
+  {
+    "idfabricante": 24165,
+    "nome": "VIA VAREJO S/A"
+  },
+  {
+    "idfabricante": 24361,
+    "nome": "MAXINUTRI LABORATORIO NUTRACEUTICO - EIRELI - EPP"
+  },
+  {
+    "idfabricante": 24451,
+    "nome": "HEMAFARMA COMERCIO E INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 24526,
+    "nome": "BIOMM S/A"
+  },
+  {
+    "idfabricante": 24753,
+    "nome": "KLEY HERTZ FARMACEUTICA S.A"
+  },
+  {
+    "idfabricante": 24848,
+    "nome": "LSLOG ARMAZENAGEM E LOGISTICA LTDA."
+  },
+  {
+    "idfabricante": 25058,
+    "nome": "RECKITT BENCKISER COMERCIAL DE PRODUTOS DE HIGIENE"
+  },
+  {
+    "idfabricante": 25109,
+    "nome": "EXELTIS LABORATORIO FARMACEUTICO LTDA"
+  },
+  {
+    "idfabricante": 25152,
+    "nome": "UNICHARM DO BRASIL INDUSTRIA E COMERCIO DE PRODUTO"
+  },
+  {
+    "idfabricante": 25207,
+    "nome": "STORAGE & LOGISTICS IMPORTACAO E EXPORTACAO - EIRE"
+  },
+  {
+    "idfabricante": 25212,
+    "nome": "MULTILINK BIO TEC IMPORTACAO E EXPORTACAO - EIRELI"
+  },
+  {
+    "idfabricante": 25394,
+    "nome": "LINEA ALIMENTOS INDUSTRIA E COMERCIO S.A"
+  },
+  {
+    "idfabricante": 25703,
+    "nome": "CCM INDUSTRIA E COMERCIO DE PRODUTOS DESCARTAVEIS"
+  },
+  {
+    "idfabricante": 25744,
+    "nome": "POSTALL TRANSPORTE ARMAZENAGEM LTDA"
+  },
+  {
+    "idfabricante": 25972,
+    "nome": "HALEON BRASIL DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 26009,
+    "nome": "UNILEVER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 26909,
+    "nome": "HERTAPE CALIER SAUDE ANIMAL S/A"
+  },
+  {
+    "idfabricante": 27184,
+    "nome": "HERTAPE CALIER SAUDE ANIMAL S/A"
+  },
+  {
+    "idfabricante": 27599,
+    "nome": "GENOMMA LABORATORIES DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 27618,
+    "nome": "UNIAO COM. E IND. SENHORA DO CARMO EPP"
+  },
+  {
+    "idfabricante": 27805,
+    "nome": "KATOEN DC P&G IND COM LTDA"
+  },
+  {
+    "idfabricante": 27858,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 27859,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 28029,
+    "nome": "HERTAPE CALIER"
+  },
+  {
+    "idfabricante": 28030,
+    "nome": "BONOSSO PROD P ANIMAIS LTDA ME"
+  },
+  {
+    "idfabricante": 28031,
+    "nome": "PURINA PETCARE"
+  },
+  {
+    "idfabricante": 28032,
+    "nome": "P&G IND COML LTDA"
+  },
+  {
+    "idfabricante": 28038,
+    "nome": "HEINZ BRASIL S.A."
+  },
+  {
+    "idfabricante": 28083,
+    "nome": "UNILEVER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 28146,
+    "nome": "FABRICA DE IDEIAS IND COM PLASTICOS LTDA"
+  },
+  {
+    "idfabricante": 28828,
+    "nome": "MEAD JOHNSON DO BRASIL COMERCIO E IMPORTACAO DE PR"
+  },
+  {
+    "idfabricante": 28829,
+    "nome": "MEAD JOHNSON DO BRASIL COMERCIO E IMPORTACAO DE PR"
+  },
+  {
+    "idfabricante": 28839,
+    "nome": "HALEON BRASIL DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 28966,
+    "nome": "SANOFI MEDLEY FARMACÊUTICA LTDA"
+  },
+  {
+    "idfabricante": 28967,
+    "nome": "SANOFI MEDLEY FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 29132,
+    "nome": "JOSE APARECIDO PICOLO & CIA LTDA EPP"
+  },
+  {
+    "idfabricante": 29143,
+    "nome": "LEAO ALIMENTOS E BEBIDAS LTDA"
+  },
+  {
+    "idfabricante": 29195,
+    "nome": "VIATRIS FARMACEUTICA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 29365,
+    "nome": "CLI CENTRAL DE LOGISTICA INTEGRADA LTDA"
+  },
+  {
+    "idfabricante": 30200,
+    "nome": "M. DIAS BRANCO S.A. IND. COM. DE ALIMENTOS"
+  },
+  {
+    "idfabricante": 30346,
+    "nome": "ROGE DISTRIBUIDORA E TECNOLOGIA S/A"
+  },
+  {
+    "idfabricante": 30660,
+    "nome": "FRYSK INDUSTRIAL LTDA"
+  },
+  {
+    "idfabricante": 30715,
+    "nome": "FRYSK INDUSTRIAL LTDA"
+  },
+  {
+    "idfabricante": 30719,
+    "nome": "GLOBAL LIN DISTRIBUIDORA DE BEBIDAS EIRELI"
+  },
+  {
+    "idfabricante": 30720,
+    "nome": "M. F. F. RUETTE - EPP"
+  },
+  {
+    "idfabricante": 30761,
+    "nome": "LOJAS CEM SA"
+  },
+  {
+    "idfabricante": 30946,
+    "nome": "TOTALOG COMERCIO E DISTRIBUICAO DE PRODUTOS SANEAN"
+  },
+  {
+    "idfabricante": 30960,
+    "nome": "J MAHFUZ LTDA"
+  },
+  {
+    "idfabricante": 31445,
+    "nome": "DIAGEO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 31703,
+    "nome": "SONOCO DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 31849,
+    "nome": "CHEP DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 31946,
+    "nome": "JACQUET BRASIL S.A."
+  },
+  {
+    "idfabricante": 31949,
+    "nome": "JACQUET BRASIL S.A."
+  },
+  {
+    "idfabricante": 31952,
+    "nome": "VEROM PLASTICOS FLEXIVEIS LTDA ME"
+  },
+  {
+    "idfabricante": 32157,
+    "nome": "M. DIAS BRANCO S. A. INDUSTRIA E COMERCIO DE ALIME"
+  },
+  {
+    "idfabricante": 32391,
+    "nome": "LEGAS METAL INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 32567,
+    "nome": "GRAFICA TUDO EIRELI - ME"
+  },
+  {
+    "idfabricante": 32766,
+    "nome": "AUTENTICA LOGISTICA INTEGRADA LTDA"
+  },
+  {
+    "idfabricante": 32876,
+    "nome": "MARTINS COMÉRCIO E SERVIÇOS DE DISTRIBUIÇÃO S/A"
+  },
+  {
+    "idfabricante": 32884,
+    "nome": "A CABRAL TRANSPORTES LTDA - ME"
+  },
+  {
+    "idfabricante": 32894,
+    "nome": "TRUST EXPRESS RIO PRETO TRANSPORTES LTDA - ME"
+  },
+  {
+    "idfabricante": 32908,
+    "nome": "R&G LOGISTICA E SERVICOS LTDA - ME"
+  },
+  {
+    "idfabricante": 32910,
+    "nome": "ACAO LOGISTICA E TRANSPORTES LTDA"
+  },
+  {
+    "idfabricante": 32911,
+    "nome": "OKUMA SOLUCOES & LOGISTICA LTDA ME"
+  },
+  {
+    "idfabricante": 32913,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 32943,
+    "nome": "CLAUDIO SERGIO ZIGNANI - ENTREGAS - ME"
+  },
+  {
+    "idfabricante": 32944,
+    "nome": "CHESTER TADEU GONCALVES DE PAULA E SOUZA ME MICROE"
+  },
+  {
+    "idfabricante": 33066,
+    "nome": "EBANISTA INDUSTRIA, COMERCIO, IMPORTACAO, EXPORTAC"
+  },
+  {
+    "idfabricante": 33076,
+    "nome": "LEAO ALIMENTOS E BEBIDAS LTDA"
+  },
+  {
+    "idfabricante": 33178,
+    "nome": "ECONOMIK EXPRESS AGENCIAMENTO DE CARGAS EIRELI - E"
+  },
+  {
+    "idfabricante": 33275,
+    "nome": "SUPRIMED COMERCIO DE PRODUTOS AGROPECUARIOS LTDA"
+  },
+  {
+    "idfabricante": 33354,
+    "nome": "DISO - COMERCIO DE ALIMENTOS LTDA"
+  },
+  {
+    "idfabricante": 33385,
+    "nome": "COMERCIAL ALIMENTICIA PULMER LT"
+  },
+  {
+    "idfabricante": 33554,
+    "nome": "DIA BRASIL SOCIEDADE LIMITADA"
+  },
+  {
+    "idfabricante": 33611,
+    "nome": "SANTEZ DISTRIBUICAO DE PRODUTOS NATURAIS LTDA - ME"
+  },
+  {
+    "idfabricante": 33628,
+    "nome": "INDÚSTRIA DE PRODUTOS ALIMENTÍCIOS CORY LT"
+  },
+  {
+    "idfabricante": 33631,
+    "nome": "NESTLE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 33638,
+    "nome": "OCEANBRASIL COMERCIO DE PRODUTOS DESCARTAVEIS EIRE"
+  },
+  {
+    "idfabricante": 33657,
+    "nome": "NEO BLADE LTDA"
+  },
+  {
+    "idfabricante": 33659,
+    "nome": "NOVA GIRU TRANSPORTES E LOGISTICA LTDA. - ME"
+  },
+  {
+    "idfabricante": 33976,
+    "nome": "INDUSTRIA DE PRODUTOS ALIMENTICIOS CORY LTDA"
+  },
+  {
+    "idfabricante": 34119,
+    "nome": "BRASILMAXI LOGISTICA LTDA"
+  },
+  {
+    "idfabricante": 34150,
+    "nome": "P + E PREMEDIA LTDA"
+  },
+  {
+    "idfabricante": 34171,
+    "nome": "GRANADO DISTRIBUIDORA DE ALIMENTOS NACIONAIS E IMP"
+  },
+  {
+    "idfabricante": 34234,
+    "nome": "R.W.F. COMERCIAL EIRELI"
+  },
+  {
+    "idfabricante": 34243,
+    "nome": "MERCASUL ATACADISTA DE PRODUTOS ALIMENTICIOS EIREL"
+  },
+  {
+    "idfabricante": 34474,
+    "nome": "MM RIO IMPORTACAO E DISTRIBUICAO EIRELI"
+  },
+  {
+    "idfabricante": 34486,
+    "nome": "PLASTICOS SANTA CLARA EIRELI"
+  },
+  {
+    "idfabricante": 34488,
+    "nome": "ECO VIDA COMERCIO E INDUSTRIA DE EMBALAGENS PLASTI"
+  },
+  {
+    "idfabricante": 34501,
+    "nome": "PROCTER & GAMBLE INDL E COML LTDA."
+  },
+  {
+    "idfabricante": 34520,
+    "nome": "VELLORE S/A"
+  },
+  {
+    "idfabricante": 34562,
+    "nome": "REIS COMERCIO DE PRODUTOS DE LIMPEZA E DESCARTAVEI"
+  },
+  {
+    "idfabricante": 34583,
+    "nome": "DIAGEO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 34636,
+    "nome": "DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS ICEKISS LTD"
+  },
+  {
+    "idfabricante": 34641,
+    "nome": "DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS ICEKISS LTD"
+  },
+  {
+    "idfabricante": 34814,
+    "nome": "INCENTIVA BRINDES COMERCIO DE ELETROELETRONICOS EI"
+  },
+  {
+    "idfabricante": 34875,
+    "nome": "FORMAPLAS INDUSTRIA E COMERCIO DE PLASTICOS LTDA"
+  },
+  {
+    "idfabricante": 34916,
+    "nome": "PAULO ANDRE GOMES"
+  },
+  {
+    "idfabricante": 36280,
+    "nome": "BOMBRIL S.A"
+  },
+  {
+    "idfabricante": 36495,
+    "nome": "HARIBO BRASIL IND E COM DE PROD ALIMENTICIO LTDA"
+  },
+  {
+    "idfabricante": 36618,
+    "nome": "ULTRA DISPLAYS - INDUSTRIA E COMERCIO DE ARAMADOS"
+  },
+  {
+    "idfabricante": 36637,
+    "nome": "SOCINTER SUL COMERCIO INTERNACIONAL LTDA"
+  },
+  {
+    "idfabricante": 36744,
+    "nome": "HARIBO BRASIL IND. E COM. DE PRODS ALIM LTDA"
+  },
+  {
+    "idfabricante": 37123,
+    "nome": "ONIZ DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 37128,
+    "nome": "MAGAZINE LUIZA S/A - CD050"
+  },
+  {
+    "idfabricante": 37164,
+    "nome": "INTELIGENCIA LOGISTICA LTDA EPP - INTEL LOG"
+  },
+  {
+    "idfabricante": 37264,
+    "nome": "COMERCIAL ALIMENTICIA PULMER LT"
+  },
+  {
+    "idfabricante": 37284,
+    "nome": "LT DISTRIBUIDORA E TRANSPORTES EIRELI - EPP"
+  },
+  {
+    "idfabricante": 37329,
+    "nome": "JCS LOG GESTÃO EM LOG PROMOCIONAL LTDA - ME"
+  },
+  {
+    "idfabricante": 37387,
+    "nome": "BAURU LOG EXPRESS LTDA ME"
+  },
+  {
+    "idfabricante": 37639,
+    "nome": "CORREIO DIGITAL TECNOLOGIA LTDA"
+  },
+  {
+    "idfabricante": 37758,
+    "nome": "DURACELL COML E IMPORTADORA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 37776,
+    "nome": "PERNOD RICARD BRASIL INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 38038,
+    "nome": "AUTENTICA LOG INTEGRADA LTDA"
+  },
+  {
+    "idfabricante": 38420,
+    "nome": "MELLO COMERCIO DE PRODUTOS TÊXTEIS LTDA - ME"
+  },
+  {
+    "idfabricante": 38541,
+    "nome": "INFRACOMMERCE NEGOCIOS E SOLUCOES EM INTERNET LTDA"
+  },
+  {
+    "idfabricante": 38804,
+    "nome": "NESTLE NORDESTE ALIM E BEBIDAS - BR PL RIB PRETO N"
+  },
+  {
+    "idfabricante": 38964,
+    "nome": "CLESS COMERCIO DE COSMETICOS S.A"
+  },
+  {
+    "idfabricante": 39292,
+    "nome": "MUNDIAL LOGISTICA INTEGRADA LTDA"
+  },
+  {
+    "idfabricante": 39363,
+    "nome": "SUPLEY LABORATORIO DE ALIMENTOS E SUPLEMENTOS NUTR"
+  },
+  {
+    "idfabricante": 43971,
+    "nome": "MOGIANA ALIMENTOS S/A"
+  },
+  {
+    "idfabricante": 44020,
+    "nome": "M. DIAS BRANCO S.A. IND. COM. DE ALIMENTOS"
+  },
+  {
+    "idfabricante": 44596,
+    "nome": "DIAGEO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 45529,
+    "nome": "MD SERVICOS E LOGISTICA LTDA"
+  },
+  {
+    "idfabricante": 48091,
+    "nome": "RVT SERVICOS ADMINISTRATIVOS LTDA"
+  },
+  {
+    "idfabricante": 49176,
+    "nome": "S.I.T ASSESSORIA E MARKETING EIRELLI"
+  },
+  {
+    "idfabricante": 49481,
+    "nome": "PROMAIS LOGISTICA E EVENTOS LTA - EPP"
+  },
+  {
+    "idfabricante": 50508,
+    "nome": "KELCO PET CARE PRODUTOS ANIMAIS LTDA"
+  },
+  {
+    "idfabricante": 50982,
+    "nome": "A33 SOLUÇÕES EM LOGISTICA - EIRELLI"
+  },
+  {
+    "idfabricante": 50991,
+    "nome": "LINEA ALIMENTOS INDUSTRIA E COM S/A"
+  },
+  {
+    "idfabricante": 51028,
+    "nome": "MN LOGISTICA LTDA - MNLOG"
+  },
+  {
+    "idfabricante": 51732,
+    "nome": "EBAZAR.COM.BR. LTDA"
+  },
+  {
+    "idfabricante": 51853,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 51854,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 51855,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 51857,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 51858,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 52553,
+    "nome": "CENTRO-OESTE PRODUTOS INDUSTRIAIS LTDA"
+  },
+  {
+    "idfabricante": 53216,
+    "nome": "GOOD BOM SUPERMERCADOS LTDA"
+  },
+  {
+    "idfabricante": 54147,
+    "nome": "RED BULL DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 55030,
+    "nome": "FERNANDO DONIZETE TOLINI RIB. PRETO - ME"
+  },
+  {
+    "idfabricante": 55444,
+    "nome": "DURACELL COMERCIAL E IMPORTADORA DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 56058,
+    "nome": "RED BULL DO BRASIL LTDA."
+  },
+  {
+    "idfabricante": 56069,
+    "nome": "PS LOGISTICA E PROMOCOES ARMAZENS GERAIS LTDA."
+  },
+  {
+    "idfabricante": 56770,
+    "nome": "LEAO ALIMENTOS E BEBIDAS LTDA"
+  },
+  {
+    "idfabricante": 58310,
+    "nome": "COTY BRASIL COMERCIO LTDA."
+  },
+  {
+    "idfabricante": 58879,
+    "nome": "J.C. SIGMA COMERCIAL IMPORTACAO E EXPORTACAO EIREL"
+  },
+  {
+    "idfabricante": 59243,
+    "nome": "MKT LOGISTICA INTEGRADA LTDA - EPP"
+  },
+  {
+    "idfabricante": 59681,
+    "nome": "LINEA ALIMENTOS IND. E COM. DE ALIMENTOS S/A"
+  },
+  {
+    "idfabricante": 59959,
+    "nome": "CRIVELLARO & FILHOS LTDA"
+  },
+  {
+    "idfabricante": 60787,
+    "nome": "DAZAMIX COMERCIO E DISTRIBUIDORA - EIRELI"
+  },
+  {
+    "idfabricante": 60896,
+    "nome": "KRAFT HEINZ BRASIL COMERCIO, DISTRIBUICAO E IMPORT"
+  },
+  {
+    "idfabricante": 60950,
+    "nome": "CCM INDUSTRIA E COMERCIO DE PRODUTOS DESCARTAVEIS"
+  },
+  {
+    "idfabricante": 61528,
+    "nome": "UPJOHN BRASIL IMPORTADORA E DISTRIBUIDORA DE MEDIC"
+  },
+  {
+    "idfabricante": 61610,
+    "nome": "DELTA FOODS BRASIL - COMERCIALIZACAO, IMPORTACAO E"
+  },
+  {
+    "idfabricante": 61857,
+    "nome": "VIRBAC DO BRASIL IND COM LT"
+  },
+  {
+    "idfabricante": 61892,
+    "nome": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 63143,
+    "nome": "FIT LOG SERVIÇOS AUX TRANSP AEREA E LOGISTICA"
+  },
+  {
+    "idfabricante": 64681,
+    "nome": "THERAMEX FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 64717,
+    "nome": "FORPRINTART GRAFICA E ED EIRELE - EPP"
+  },
+  {
+    "idfabricante": 65168,
+    "nome": "RECKITT BENCKISER HEALTH COMERCIAL LTDA."
+  },
+  {
+    "idfabricante": 65172,
+    "nome": "NATULAB LABORATORIO S.A"
+  },
+  {
+    "idfabricante": 65183,
+    "nome": "LOREAL BRASIL COMERCIAL DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 65184,
+    "nome": "LOREAL VICHY BRASIL COMERCIAL DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 65307,
+    "nome": "PMI SOUTH AMERICA CONSUMER GOODS LTDA"
+  },
+  {
+    "idfabricante": 65422,
+    "nome": "FUSÃO IMPRESSÃO DIGITAL - FUSÃO DIGITAL"
+  },
+  {
+    "idfabricante": 65854,
+    "nome": "SCAPOL DISTRIBUIDORA LTDA."
+  },
+  {
+    "idfabricante": 66236,
+    "nome": "LOREAL BRASIL COMERCIAL DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 66280,
+    "nome": "ARTE VISÃO VAN GOGH COM.PROD PROMOCIONAIS LTDA"
+  },
+  {
+    "idfabricante": 66972,
+    "nome": "NESTLE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 67714,
+    "nome": "POSTALL TRANSPORTE ARMAZENAGEM LTDA"
+  },
+  {
+    "idfabricante": 67842,
+    "nome": "MERCATEX RIBEIRÃO PRETO INDUSTRIA TEXTIL EIRELLI -"
+  },
+  {
+    "idfabricante": 67979,
+    "nome": "BIOPAS BRASIL PRODUTOS FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 68568,
+    "nome": "ISTOQUE DISTRIBUIDORA E LOGISTICA LTDA"
+  },
+  {
+    "idfabricante": 71742,
+    "nome": "LENOVO TECNOLOGIA (BRASIL) LIMITADA"
+  },
+  {
+    "idfabricante": 72221,
+    "nome": "GATE 72 COMERCIAL IMPORTADORA E EXPORTADORA LTDA"
+  },
+  {
+    "idfabricante": 72225,
+    "nome": "GATE 72 COMERCIAL IMP E EXPORTADORA LTDA"
+  },
+  {
+    "idfabricante": 72882,
+    "nome": "REVAL ATACADO DE PAPELARIA LTDA"
+  },
+  {
+    "idfabricante": 75427,
+    "nome": "COMPANHIA MULLER DE BEBIDAS"
+  },
+  {
+    "idfabricante": 75643,
+    "nome": "MORALLI IND E COM. IMP E EXP DE ACESSORIOS PAR"
+  },
+  {
+    "idfabricante": 79004,
+    "nome": "COLGATE-PALMOLIVE COMERCIAL LTDA."
+  },
+  {
+    "idfabricante": 82770,
+    "nome": "EBAZAR.COM.BR. LTDA"
+  },
+  {
+    "idfabricante": 85809,
+    "nome": "COFIG DISTRIBUIDORA E LOGISTICA LTDA"
+  },
+  {
+    "idfabricante": 87243,
+    "nome": "FLORENCE INDL COML LT"
+  },
+  {
+    "idfabricante": 91587,
+    "nome": "CARREFOUR COMERCIO E INDUSTRIA LTDA"
+  },
+  {
+    "idfabricante": 101859,
+    "nome": "COMPANHIA BRASILEIRA DE DISTRIBUICAO"
+  },
+  {
+    "idfabricante": 103828,
+    "nome": "RODOMINAS ENCOMENDAS LTDA"
+  },
+  {
+    "idfabricante": 111335,
+    "nome": "KIMBERLY -CLARK BRASIL INDUSTRIA E COMERCIO DE PRO"
+  },
+  {
+    "idfabricante": 111445,
+    "nome": "BENEVIA DO BRASIL COMERCIO IMPORTAÇÃO E EXPORTAÇÃO"
+  },
+  {
+    "idfabricante": 111689,
+    "nome": "APPORT NUTRICAO ANIMAL LTDA"
+  },
+  {
+    "idfabricante": 112354,
+    "nome": "AGORA! COMERCIO DE BEBIDAS S.A"
+  },
+  {
+    "idfabricante": 113851,
+    "nome": "BETTER DRINKS DISTRIBUIDORA E ATACADISTA DE BEBIDA"
+  },
+  {
+    "idfabricante": 117331,
+    "nome": "TRANSCOLOR LOGISTICA E DISTRIBUIÇÃO LTDA"
+  },
+  {
+    "idfabricante": 118872,
+    "nome": "MULTILAB IND E COM DE PROD FARMACEUTICOS LTDA"
+  },
+  {
+    "idfabricante": 118947,
+    "nome": "LUXBIOTECH FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 120808,
+    "nome": "MAWDSLEYS PHARMACEUTICALS DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 124177,
+    "nome": "RIO CENTER DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 125223,
+    "nome": "LGCD FABRICAÇÃO DE BEBIDAS SOCIEDADE UNI LTDA"
+  },
+  {
+    "idfabricante": 125911,
+    "nome": "EMS S/A - OFTA"
+  },
+  {
+    "idfabricante": 126090,
+    "nome": "PET FACTORY BRASIL IND LTDA"
+  },
+  {
+    "idfabricante": 126610,
+    "nome": "FARMAX S.A"
+  },
+  {
+    "idfabricante": 126959,
+    "nome": "HENKEL LTDA"
+  },
+  {
+    "idfabricante": 126978,
+    "nome": "USK - MEDICAL DOCTOR"
+  },
+  {
+    "idfabricante": 127139,
+    "nome": "HENKEL LTDA"
+  },
+  {
+    "idfabricante": 127152,
+    "nome": "ANFAR IND E COM DE COMP P/PANELAS DE PRESSÃO GÁS L"
+  },
+  {
+    "idfabricante": 129130,
+    "nome": "LUIZ TONIN ATACADISTA E SUPERMERCADOS S. A."
+  },
+  {
+    "idfabricante": 131972,
+    "nome": "NATCOFARMA DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 132164,
+    "nome": "PRIME SOLUCOES LOGISTICAS LTDA"
+  },
+  {
+    "idfabricante": 132368,
+    "nome": "OPELLA HEALTHCARE BRASIL LTDA"
+  },
+  {
+    "idfabricante": 133629,
+    "nome": "LOI BRASIL COMERCIO ELETRONICO LTDA"
+  },
+  {
+    "idfabricante": 133646,
+    "nome": "MEDQUIMICA INDUSTRIA FARMACEUTICA LTDA."
+  },
+  {
+    "idfabricante": 134949,
+    "nome": "BLANVER FARMOQUIMICA E FARMACEUTICA S.A."
+  },
+  {
+    "idfabricante": 135478,
+    "nome": "HYPERA S.A. GB"
+  },
+  {
+    "idfabricante": 136012,
+    "nome": "DIFFUCAP-CHEMOBRAS QUIMICA E FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 136175,
+    "nome": "VENAX ELETRODOMESTICOS LTDA"
+  },
+  {
+    "idfabricante": 136536,
+    "nome": "ORLEI MORAES DE LIMA LTDA"
+  },
+  {
+    "idfabricante": 137548,
+    "nome": "CLESS COMERCIO DE COSMETICOS S.A"
+  },
+  {
+    "idfabricante": 137796,
+    "nome": "TECH SHOP.COM.BR COMERCIO E SERVICOS DE INFORMATIC"
+  },
+  {
+    "idfabricante": 137855,
+    "nome": "GENOMMA LABORATORIES DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 139243,
+    "nome": "FLORA IND.E DISTRIBUIDORA DE PRODS ALIM., HIG E LI"
+  },
+  {
+    "idfabricante": 139618,
+    "nome": "FAST CHOPP COMERCIO DE BEBIDAS LTDA"
+  },
+  {
+    "idfabricante": 139832,
+    "nome": "MOGIANA ALIMENTOS S/A"
+  },
+  {
+    "idfabricante": 139898,
+    "nome": "R S LEMOS"
+  },
+  {
+    "idfabricante": 140564,
+    "nome": "IMPORTSWB COMERCIO DE ELETRONICOS E IMPORTADOS LTD"
+  },
+  {
+    "idfabricante": 140728,
+    "nome": "GEDEON RICHTER DO BRASIL IMPORTADORA, EXPORTADORA"
+  },
+  {
+    "idfabricante": 141000,
+    "nome": "KAB COMERCIAL"
+  },
+  {
+    "idfabricante": 141006,
+    "nome": "ADRIANO DE ANDRADE SACRAMENTO"
+  },
+  {
+    "idfabricante": 141012,
+    "nome": "AZZAX COM.DE PRODS ESPECIALIZADOS"
+  },
+  {
+    "idfabricante": 141132,
+    "nome": "FARMAX DISTRIBUIDORA S.A"
+  },
+  {
+    "idfabricante": 141712,
+    "nome": "GEOLAB INDUSTRIA FARMACEUTICA S/A"
+  },
+  {
+    "idfabricante": 141823,
+    "nome": "AMEND COSMETICOS INDUSTRIA E COM LTDA"
+  },
+  {
+    "idfabricante": 142307,
+    "nome": "SAFIRA COMERCIO DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 142309,
+    "nome": "MMC COMERCIO DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 142310,
+    "nome": "PROFILE SOLUÇÕES"
+  },
+  {
+    "idfabricante": 142625,
+    "nome": "FLORA PRODUTOS DE HIGIENE E LIMPEZA S.A"
+  },
+  {
+    "idfabricante": 143203,
+    "nome": "PROFILE STORAGE"
+  },
+  {
+    "idfabricante": 143846,
+    "nome": "WELLA BRASIL"
+  },
+  {
+    "idfabricante": 144012,
+    "nome": "WELLA BRASIL LTDA"
+  },
+  {
+    "idfabricante": 144409,
+    "nome": "SANAVITA IND.E COM.DE ALIMENTOS FUNCIONAIS LTDA"
+  },
+  {
+    "idfabricante": 144415,
+    "nome": "PEDRO JOAO GOMES COM DE SACOS DE LIXO LTDA"
+  },
+  {
+    "idfabricante": 144587,
+    "nome": "BODY FOOD FABRICANTES DE ALIMENTOS SAUDAVEIS S.A"
+  },
+  {
+    "idfabricante": 144809,
+    "nome": "BOTICARIO PRODUTOS DE BELEZA LTDA"
+  },
+  {
+    "idfabricante": 145037,
+    "nome": "BOTICARIO PRODUTOS DE BELEZA LTDA"
+  },
+  {
+    "idfabricante": 145550,
+    "nome": "BEAUTIFUL DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 146937,
+    "nome": "GO TRADE LOGISTICA LTDA EPP"
+  },
+  {
+    "idfabricante": 147255,
+    "nome": "TRADIBOM DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 147702,
+    "nome": "VAREJO DIGITAL LTDA"
+  },
+  {
+    "idfabricante": 147705,
+    "nome": "CARLOS WILSON BOLSAS LTDA"
+  },
+  {
+    "idfabricante": 149732,
+    "nome": "TAEC MODULOS LTDA"
+  },
+  {
+    "idfabricante": 149736,
+    "nome": "EQUIPAFACIL MAQUINAS, EQUIPAMENTOS EMB LTDA"
+  },
+  {
+    "idfabricante": 149740,
+    "nome": "MAGAZINE ALPHA COMERCIO ELETRONICO LTDA"
+  },
+  {
+    "idfabricante": 150486,
+    "nome": "TDI COMERCIO E SERVIÇO LTDA"
+  },
+  {
+    "idfabricante": 150632,
+    "nome": "VIG BRASIL COMUNICAÇÃO VISUAL LTDA"
+  },
+  {
+    "idfabricante": 151746,
+    "nome": "GBIO INDUSTRIA FARMACEUTICA S/A"
+  },
+  {
+    "idfabricante": 152747,
+    "nome": "BOTICARIO PRODUTOS DE BELEZA LTDA"
+  },
+  {
+    "idfabricante": 153594,
+    "nome": "PRIME SOLUCOES LOGISTICAS LTDA"
+  },
+  {
+    "idfabricante": 153834,
+    "nome": "OLLEA DISTRIBUIDORA DE PRODUTOS PETCARE LTDA"
+  },
+  {
+    "idfabricante": 155555,
+    "nome": "CIRURGIA SINETE COMERCIO, DISTRIBUIÇÃO E IMP. DE P"
+  },
+  {
+    "idfabricante": 155704,
+    "nome": "EMS S/A SIMILAR"
+  },
+  {
+    "idfabricante": 155727,
+    "nome": "ENGAGE ELETRO COMERCIO EIRELLI"
+  },
+  {
+    "idfabricante": 156228,
+    "nome": "LEMES UTILIDADES"
+  },
+  {
+    "idfabricante": 156229,
+    "nome": "GISLAINE PEREIRA DOS SANTOS - GLAMOUR MEGASTORE"
+  },
+  {
+    "idfabricante": 157087,
+    "nome": "REFRIGERACAO DUFRIO COMERCIO E IMPORTACAO S.A."
+  },
+  {
+    "idfabricante": 157388,
+    "nome": "F.B.M. INDUSTRIA FARMACEUTICA LTDA"
+  },
+  {
+    "idfabricante": 157470,
+    "nome": "VETOR MIDIAS - COMUNICACAO VISUAL LTDA"
+  },
+  {
+    "idfabricante": 157879,
+    "nome": "LABORATORIO GLOBO SA"
+  },
+  {
+    "idfabricante": 159323,
+    "nome": "HERDORA IND. COM. IMP. E EXP. DE COSMETICOS E PROD"
+  },
+  {
+    "idfabricante": 159344,
+    "nome": "MULTISAUDE FARMACEUTICA E NUTRICIONAL S/A"
+  },
+  {
+    "idfabricante": 160791,
+    "nome": "PRINCIPIA SP COMERCIO DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 165532,
+    "nome": "GRUPO CASAS BAHIA S.A."
+  },
+  {
+    "idfabricante": 166194,
+    "nome": "BICICLO - DISTRIBUIDORA E COMERCIO DE PECAS PARA"
+  },
+  {
+    "idfabricante": 166261,
+    "nome": "TAED COMERCIO VESTUARIO E ELETRONICOS LTDA"
+  },
+  {
+    "idfabricante": 166262,
+    "nome": "SKYBLUE ECOMMERCE LTDA"
+  },
+  {
+    "idfabricante": 166392,
+    "nome": "MARECHAL PARTS COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 166673,
+    "nome": "RECKITT BENCKISER BRASIL"
+  },
+  {
+    "idfabricante": 166806,
+    "nome": "SAGGEZZA TRADE MARKETING"
+  },
+  {
+    "idfabricante": 167029,
+    "nome": "XBT COMERCIO DE DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 167031,
+    "nome": "BAG ONLINE COMERCIO DE BOLSAS LTDA"
+  },
+  {
+    "idfabricante": 167243,
+    "nome": "PROSIGN INDUSTRIA E COMERCIO"
+  },
+  {
+    "idfabricante": 167651,
+    "nome": "CIMED INDUSTRIA S.A."
+  },
+  {
+    "idfabricante": 169275,
+    "nome": "CENTRO ATACADISTA BARAO LTDA"
+  },
+  {
+    "idfabricante": 179716,
+    "nome": "ECHOPE BEBEDOURO LTDA"
+  },
+  {
+    "idfabricante": 180114,
+    "nome": "DUTRA MAQUINAS COMERCIAL E TECNICA LTDA"
+  },
+  {
+    "idfabricante": 180129,
+    "nome": "GRAND COMMERCE LTDA"
+  },
+  {
+    "idfabricante": 180187,
+    "nome": "PRO NOVA DISTRIBUIDORA E COMERCIO DE COSMETICOS LT"
+  },
+  {
+    "idfabricante": 180398,
+    "nome": "CIMED & CO S.A"
+  },
+  {
+    "idfabricante": 180568,
+    "nome": "NT DISTRIBUIDORA DE PRODUTOS HIGIENICOS LTDA"
+  },
+  {
+    "idfabricante": 180847,
+    "nome": "AT4U LTDA"
+  },
+  {
+    "idfabricante": 180916,
+    "nome": "FORT-RIB INDUSTRIA DE EMBALAGENS PLASTICAS LTDA"
+  },
+  {
+    "idfabricante": 180952,
+    "nome": "SANCHES CANO"
+  },
+  {
+    "idfabricante": 180960,
+    "nome": "SANCHES CANO LTDA"
+  },
+  {
+    "idfabricante": 181101,
+    "nome": "GLOBAL DISTRIBUIÇÃO DE BENS E CONS LTDA"
+  },
+  {
+    "idfabricante": 182282,
+    "nome": "CONCEITO ESTETICA E PRODUTOS LTDA"
+  },
+  {
+    "idfabricante": 182396,
+    "nome": "ECHOP GROUP LTDA"
+  },
+  {
+    "idfabricante": 182457,
+    "nome": "AESTHETIC PLANET COMERCIAL LTDA"
+  },
+  {
+    "idfabricante": 182505,
+    "nome": "KELCO INDUSTRIAL PRODUTOS ANIMAIS LTDA"
+  },
+  {
+    "idfabricante": 182508,
+    "nome": "BENTONIT UNIAO NORDESTE IND E COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 182582,
+    "nome": "ASJLINE COMERCIO VIRTUAL PRODUTOS LTDA"
+  },
+  {
+    "idfabricante": 182583,
+    "nome": "CREATIVE VARIEDADES LTDA"
+  },
+  {
+    "idfabricante": 182584,
+    "nome": "WILSON ROBERTO TONETTE"
+  },
+  {
+    "idfabricante": 182603,
+    "nome": "PRIME SOLUÇÕES LOGISTICAS LTDA"
+  },
+  {
+    "idfabricante": 182609,
+    "nome": "BBT TRANSPORTES LTDA"
+  },
+  {
+    "idfabricante": 182681,
+    "nome": "BENTONIT UNIÃO NORDESTE IND E COM LTDA"
+  },
+  {
+    "idfabricante": 182685,
+    "nome": "KELCO INDUSTRIAL PROD ANIMAIS LTDA"
+  },
+  {
+    "idfabricante": 182788,
+    "nome": "FLAME BRINDES LTDA"
+  },
+  {
+    "idfabricante": 182813,
+    "nome": "HERMANS INDUSTRIA E DISTRIBUIÇÃO LTDA"
+  },
+  {
+    "idfabricante": 182937,
+    "nome": "UNILEVER BRASIL LTDA"
+  },
+  {
+    "idfabricante": 183080,
+    "nome": "DNA 2 LTDA"
+  },
+  {
+    "idfabricante": 183100,
+    "nome": "DAMIANA SANTOS BULGARI DE OLIVERIA"
+  },
+  {
+    "idfabricante": 183101,
+    "nome": "UP 2 TECH DO BRASIL EIRELI"
+  },
+  {
+    "idfabricante": 183178,
+    "nome": "BEAUTY LABS COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 183179,
+    "nome": "BELEZE & OLIVEIRA - COMERCIO DE COSMETICOS LTDA"
+  },
+  {
+    "idfabricante": 183181,
+    "nome": "MARS DISTRIBUIDORA LTDA"
+  },
+  {
+    "idfabricante": 183526,
+    "nome": "LABORATORIOS NAOS DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 183651,
+    "nome": "LATICINIOS BELA VISTA S.A."
+  },
+  {
+    "idfabricante": 183662,
+    "nome": "E.H. (BRASIL) LTDA"
+  },
+  {
+    "idfabricante": 183826,
+    "nome": "SERILON BRASIL LTDA"
+  },
+  {
+    "idfabricante": 184946,
+    "nome": "SIRPLAS INDUSTRIA E COMERCIO DE PLASTICOS LTDA"
+  },
+  {
+    "idfabricante": 185072,
+    "nome": "FAST SHOP S.A"
+  },
+  {
+    "idfabricante": 185185,
+    "nome": "ZOLVE LABS LTDA"
+  },
+  {
+    "idfabricante": 185549,
+    "nome": "PECCIN SA"
+  },
+  {
+    "idfabricante": 185634,
+    "nome": "BP ONE LOGISTICA LTDA"
+  },
+  {
+    "idfabricante": 185694,
+    "nome": "REINALDO VENANCIO ELETRO COMERCIO LTDA"
+  },
+  {
+    "idfabricante": 186936,
+    "nome": "PERFUMES DANA DO BRASIL S.A"
+  },
+  {
+    "idfabricante": 186937,
+    "nome": "PERFUMES DANA DO BRASIL S.A"
+  },
+  {
+    "idfabricante": 186948,
+    "nome": "ALESSANDRA NASCIMENTO SANTANA"
+  },
+  {
+    "idfabricante": 187078,
+    "nome": "ELIZA BIKE IND.E COM DE BIC E PEÇAS LTDA"
+  },
+  {
+    "idfabricante": 187491,
+    "nome": "E.H (BRASIL) LTDA"
+  },
+  {
+    "idfabricante": 188126,
+    "nome": "SERILON BRASIL LTDA"
+  },
+  {
+    "idfabricante": 188127,
+    "nome": "SERILON BRASIL LTDA"
+  },
+  {
+    "idfabricante": 188221,
+    "nome": "E.H. (BRASIL LTDA"
+  },
+  {
+    "idfabricante": 188258,
+    "nome": "ELEKTRO FRIO REFRIGERACAO LTDA"
+  },
+  {
+    "idfabricante": 189211,
+    "nome": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA"
+  },
+  {
+    "idfabricante": 189470,
+    "nome": "PS LOGISTICA E PROMOÇOES ARMAZENS GERAIS LTDA"
+  },
+  {
+    "idfabricante": 189529,
+    "nome": "BDF NIVEA LTDA"
+  },
+  {
+    "idfabricante": 312989,
+    "nome": "M. A. D. NOGUEIRA"
+  },
+  {
+    "idfabricante": 572938,
+    "nome": "PERSEUS MARKETIN E SUPLEMENTOS - EIRELI"
+  },
+  {
+    "idfabricante": 637331,
+    "nome": "PERSEUS MARKETING E SUPLEMENTOS EIRELI - MIDWAY"
+  },
+  {
+    "idfabricante": 668325,
+    "nome": "FALCON DISTRIBUICAO, ARMAZENAMENTO E TRANSPORTES S"
+  },
+  {
+    "idfabricante": 684938,
+    "nome": "UNILEVER BRASIL LTDA."
+  },
+  {
+    "idfabricante": 705581,
+    "nome": "GEYER MEDICAMENTOS S/A"
+  },
+  {
+    "idfabricante": 737420,
+    "nome": "NACIONAL COMERCIAL HOSPITALAR S.A."
+  },
+  {
+    "idfabricante": 766437,
+    "nome": "VENUS COMERCIO DE AROMATIZANTES LTDA."
+  },
+  {
+    "idfabricante": 807974,
+    "nome": "MOKSHA8 BRASIL INDÚSTRIA E COMÉRCIO DE MEDICAMENTO"
+  },
+  {
+    "idfabricante": 1538100,
+    "nome": "CLESS COMERCIO DE COSMETICOS S.A."
+  },
+  {
+    "idfabricante": 1755166,
+    "nome": "SUPLEY LABORATORIO DE ALIMENTOS E SUPLEMENTOS NUTR"
+  },
+  {
+    "idfabricante": 1793736,
+    "nome": "R. A. MARTINS BORGES"
+  }
+]
