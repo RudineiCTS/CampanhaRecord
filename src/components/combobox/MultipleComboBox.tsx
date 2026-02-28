@@ -10,51 +10,43 @@ export interface ComboboxOption {
 
 interface MultipleComboBoxProps {
   options: ComboboxOption[]
-  value: string | null
-  onChange: (value: string) => void
+  selected: ComboboxOption[]
+  onChange: (items: ComboboxOption[]) => void
   placeholder?: string
-  className?: string  
+  className?: string,
+  classNameContainer?:string
 }
 
 export  function MultipleComboBox({
-  options,
-  value,  
+  options, 
   placeholder = "Selecione...",
-  className = "",  
+  className = "",
+  selected,
+  onChange,
+  classNameContainer = ""
 }: MultipleComboBoxProps) {
   const [open, setOpen] = useState<boolean>(false)
   const [search, setSearch] = useState<string>("")
-  const [itens, setItens] = useState<ComboboxOption[]>([]);
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const selected = itens.map((v) =>{       
-        return v
-    })
+    const filteredOptions = options.filter((item) =>
+      item.label.toLowerCase().includes(search.toLowerCase()) ||
+      item.value.toLowerCase().includes(search.toLowerCase())
+    )
 
-  const filteredOptions = options.filter((item) =>    
-    {   
-        
-        return item.label.toLowerCase().includes(search.toLowerCase()) || item.value.toLowerCase().includes(search.toLowerCase())
-    }
-  )
-function setItemInYourList(newValue:ComboboxOption){    
-    const isExistValueInYourList = itens.find((item)=> item.value === newValue.value)
+  function setItemInYourList(newValue: ComboboxOption) {
+    const exists = selected.find(item => item.value === newValue.value)
 
-    if(!isExistValueInYourList){
-        setItens((prev)=> [...prev, newValue])
-        return;
+    if (!exists) {
+      onChange([...selected, newValue])
     }
-    return;
-}
-function removeItemInYourList(value:string){
-    const takeValueInLabel = itens.find((i)=> i.label === value)
-    console.log(selected)
-    if(!takeValueInLabel){
-        return;
-    }
-    const newListItem= itens.filter((v) => v.value !== takeValueInLabel.value);
-    setItens(newListItem)
-}
+  }
+
+  function removeItemInYourList(value: string) {
+    const newList = selected.filter(item => item.label !== value)
+    onChange(newList)
+  }
+
 
   // Fecha ao clicar fora
   useEffect(() => {
@@ -74,12 +66,12 @@ function removeItemInYourList(value:string){
   }, [])
 
   return (
-    <>
-    <div className="flex text-white ">
-        <ul className="flex flex-col gap-1">
+    <div className={`${className}`}>
+    <div className="flex text-white mb-2">
+        <ul className="flex flex-wrap gap-1 max-w-full">
             {
               selected.map((i)=> (
-                    <li className="group  relative bg-[#2F2C7E] py-1 px-3 rounded-xl text-xs" key={i.value}>
+                    <li className="group  min-w-0 relative bg-[#2F2C7E] py-1 px-3 rounded-xl text-xs max-w-36 truncate " key={i.value}>
                           {i.value} - {i.label}
                           <button 
                               className="ml-2 text-[#FF9B2D] opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute -top-2 -right-1 text-xs bg-[#504DA7] rounded-3xl px-1 "
@@ -93,7 +85,7 @@ function removeItemInYourList(value:string){
         </ul>
         
     </div>
-    <div ref={containerRef} className={`relative w-full border-[#cacaca]  border-solid border-2  rounded-xl  px-4 py-2 ${className}`}>
+    <div ref={containerRef} className={`relative w-full border-[#cacaca]  border-solid border-2  rounded-xl text-[#9CA3AF]  px-4 py-2 ${""}`}>
       
       {/* Botão */}
       <button
@@ -139,7 +131,7 @@ function removeItemInYourList(value:string){
                 className="px-3 py-2 text-sm cursor-pointer hover:bg-gray-100 flex items-center justify-between"
               >
                 {item.value +' - '+ item.label}
-                {value === item.value && (
+                {selected.some(s => s.value === item.value)&& (
                   <Check className="w-4 h-4 text-primary" />
                 )}
               </li>
@@ -148,6 +140,6 @@ function removeItemInYourList(value:string){
         </div>
       )}
     </div>
-    </>
+    </div>
   )
 }

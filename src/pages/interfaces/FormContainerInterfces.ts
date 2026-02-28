@@ -11,7 +11,6 @@ export interface FormType {
     valorPremicao: number,
     gatilhoVenda: string,
     gatilhoPositivacao:string,
-    FormaRecebimento:string,
     fabricantes :number[],
     linhaProduto: number[],
     painelCliente: string,
@@ -19,9 +18,9 @@ export interface FormType {
     tipoApuracao: string,
     tipoPagamento: string,
     participantes: {
-      todos: false,
-      televendas: false,
-      exclusivas:false
+      todos: boolean,
+      televendas: boolean,
+      exclusivas:boolean
     } | null,
     tipoCalculo:string,
     observacao: string

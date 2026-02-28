@@ -51,17 +51,17 @@ export function FormContainer(){
         valorPremicao:0,
         gatilhoVenda:'',
         gatilhoPositivacao:'',
-        FormaRecebimento:'',
         fabricantes : [] as number[],
         linhaProduto: [] as number[],
         painelCliente: '',
         painelProduct: '',
         tipoApuracao:'',
         tipoPagamento:'',
-        participantes: null,
+        participantes: {todos:false, exclusivas:false, televendas:false},
         observacao: '',
         tipoCalculo:''
     })
+    const [fabricantesSelecionados, setFabricantesSelecionados] = useState<ComboboxOption[]>([])
     const [hasPanelClient, setHasPanelClient] = useState<boolean>(false)
     const [notHasPanelClient, setnotHasPanelClient] = useState<boolean>(true)
     const [hasPanelProduct, setHasPanelProduct] = useState(false)    
@@ -72,7 +72,7 @@ export function FormContainer(){
         }))
 
     function HandleChangeValueForm<K extends keyof FormType>( field: K, value: FormType[K]){        
-        if(field === 'fabricantes' || field ==='linhaProduto'){
+        if( field ==='linhaProduto'){
             if(value === null){
                 return;
             }
@@ -94,15 +94,17 @@ export function FormContainer(){
         return;
     }
     function HandleValueCheckBox(e: React.ChangeEvent<HTMLInputElement>){
-        // console.log(e.target.checked);
-        // console.log(e.target.id)
-        const participante = e.target.id;
-        
-            setForm((prev)=> ({
-                ...prev,
-                [participante]: e.target.checked
-            }))
-        
+        const key = e.target.id as keyof FormType["participantes"]
+
+        setForm((prev) => {
+            return {
+            ...prev,
+            participantes: {
+                ...prev.participantes,
+                [key]: e.target.checked
+            }
+            } as FormType
+        })
     }
     function HandleHasPanelClient(e: React.ChangeEvent<HTMLInputElement>){
         setHasPanelClient(e.target.checked);
@@ -118,6 +120,14 @@ export function FormContainer(){
     function HandleSubmit(e: React.FormEvent<HTMLFormElement>){
         e.preventDefault();
         console.log(form)
+    }
+    function HandleValuesIdsFrabricantes(e:ComboboxOption[]){
+        setFabricantesSelecionados(e)
+        const listIdFabricantes = e.map((v)=> Number(v.value))
+          setForm((prev)=>({
+            ...prev,
+            fabricantes: listIdFabricantes
+        }))
     }
     function HandleDateApuration(dateValue: Date| null, label:string){
         if(dateValue){
@@ -189,6 +199,7 @@ export function FormContainer(){
                             placeholder="Ex: 2000000.00" 
                             onChange={(e)=> HandleChangeValueForm("meta", Number(e.target.value))}
                             value={form.meta}
+                            
                             />                    
                     </div>                            
                 </div>
@@ -227,10 +238,18 @@ export function FormContainer(){
             {/* variaveis campanha */}
             <div className="flex flex-col gap-8 ">
                 <TitleComponent title='Variaveis da Campanha' decoration="TracerTitle" type="Title"/>                
-                    <div className="flex gap-16">
-                        <div className="flex flex-col gap-3 flex-auto">
+                    <div className="flex">
+                        <div className="flex flex-col gap-3 flex-auto max-w-[70%] w-full">
                             <TitleComponent title='Fabricante:'  decoration="UniqueTitle"/>
-                            <MultipleComboBox onChange={(e)=>{console.log(e) }}options={options} value={''}    className="text-[#9CA3AF]"  placeholder="Selecione o fabricante"/>
+                            <MultipleComboBox 
+                                 options={options}
+                                selected={fabricantesSelecionados}
+                                onChange={(items) => {
+                                    HandleValuesIdsFrabricantes(items)
+                                }}
+                                placeholder="Selecione o fabricante"
+                                className="w-4/5 flex- flex-wrap"
+                                />
                             {/* <InputText 
                                 placeholder="516, 1218, 478 ..." 
                                 onChange={(e)=> HandleChangeValueForm("fabricantes", e.target.value as any)}                                

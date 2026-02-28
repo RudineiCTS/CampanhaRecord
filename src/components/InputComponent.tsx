@@ -29,7 +29,7 @@ export function InputText (props: InputBaseProps){
 }
 
 export function InputNumber(props:InputBaseProps){
-    return <InputBase type="number" {...props}/>
+    return <InputBase type="number" {...props} className="appearance-none" />
 }
 
 export function InputFile(props:InputBaseProps){
